@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/Full Adder/Fulladder/AND_gate.xst" -ofn "/home/ise/VLSI/Full Adder/Fulladder/AND_gate.syr" 

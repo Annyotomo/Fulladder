@@ -1,0 +1,29 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/VLSI/Full Adder/Fulladder/Full_Adder_tb_isim_beh.exe -prj /home/ise/VLSI/Full Adder/Fulladder/Full_Adder_tb_beh.prj work.Full_Adder_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VLSI/Full Adder/Fulladder/NAND_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/Full Adder/Fulladder/XOR_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/Full Adder/Fulladder/OR_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/Full Adder/Fulladder/AND_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/Full Adder/Fulladder/Full_Adder.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/Full Adder/Fulladder/Full_Adder_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95448 KB
+Fuse CPU Usage: 860 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity NAND_gate [nand_gate_default]
+Compiling architecture structural of entity XOR_gate [xor_gate_default]
+Compiling architecture structural of entity AND_gate [and_gate_default]
+Compiling architecture structural of entity OR_gate [or_gate_default]
+Compiling architecture structural of entity Full_Adder [full_adder_default]
+Compiling architecture behavior of entity full_adder_tb
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable /home/ise/VLSI/Full Adder/Fulladder/Full_Adder_tb_isim_beh.exe
+Fuse Memory Usage: 104084 KB
+Fuse CPU Usage: 900 ms
+GCC CPU Usage: 420 ms
